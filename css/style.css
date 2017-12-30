@@ -1,0 +1,443 @@
+
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  color: #4d4d4d;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.podhod{
+	font-family : "CopperplateCyrillic-Bold";
+}
+
+.icon-close a {
+	font-family : "CopperplateCyrillic-Bold";
+}
+
+
+header {
+	max-width: 100%;
+	height: 151px;
+	background-color: #2b2b2b;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+p {
+  font-family : "Proxima Nova Regular";
+  font-size : 17px;
+  line-height : 18px;
+  color : #000000;
+}
+
+.designer p {
+	font-family : "CopperplateCyrillic-Bold";
+    font-size : 17px;
+    line-height : 23px;
+    text-transform : uppercase;
+    color : #BABABA;
+}
+
+h4 {
+	font-family : "CopperplateCyrillic-Bold";
+    font-size : 26px;
+    text-transform : uppercase;
+    color : #000000;
+}
+
+h3 {
+	font-size: 32px;
+	font-family : "CopperplateCyrillic-Bold";
+	text-transform : uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 20px;
+	color: #000000;
+}
+
+
+span {
+	font-weight: bold;
+}
+
+.wrapper {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 40px;
+	width: 100%;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+}
+
+.header-wrap-mobile {
+	display: none;
+}
+
+
+.navigation .q {
+	width: 19%;	
+	text-align: center;
+}
+
+
+
+.menu__link {
+	font-family : "Proxima Nova Regular";
+	font-size : 17px;
+    letter-spacing : 0.66px;
+	text-transform : uppercase;
+	color : #F4F4F4;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.menu__link:hover {
+   border-bottom: 1px solid #fff;
+}
+
+
+.q img {
+	width: 100%;
+}
+
+
+.hr {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.hr img {
+	width: 95%;
+	height: 2px;
+}
+
+.banner {
+	padding-top: 30px;
+}
+
+.box-banner {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 150px;
+	width: 100%;
+}
+
+.banner-slider {
+	position: relative;
+}
+
+
+.banner-slider .slick-dots {
+	position: absolute;
+	width: 100%;
+	top: 95%;
+}
+
+.banner-slider img {
+	height: 500px;
+	width: 100%;
+}
+
+.text {
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 10px;
+}
+
+.text-contact {
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 10px;
+}
+
+.text-box {
+	text-align: center;
+}
+
+.text-box h3 {
+	padding-top: 10px;
+}
+
+
+
+.contact-box {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.text-box-contact {
+	width: 100%;
+}
+
+.text-box-contact p {
+	padding-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	width: 100%;
+}
+
+
+.image-box-contact img {
+	padding-top: 60px;
+	width: 100%;
+	height: 700px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.map {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.magazine {
+	height: 700px;
+}
+
+.magazine h3 {
+	padding-top: 33px;
+	padding-bottom: 50px;
+}
+
+.images {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.images-box p {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+ .bold {
+	font-weight: bold
+}
+
+
+.images-box img {
+	width: 450px;
+	height: 450px;
+}
+
+.image-first,.image-second {
+border:2px solid transparent;
+margin:0;
+padding:0;
+}
+
+.image-first {
+opacity:1px;
+display:block;
+position:absolute;
+z-index:100;
+transition-duration:0.96s;
+-webkit-transition-duration:0.96s;
+-moz-transition-duration:0.96s;
+-o-transition-duration:0.96s;
+-ms-transition-duration:0.96s;
+}
+
+.image-first:hover {
+opacity:0.00;
+}
+ 
+.images-box {
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+margin:0;
+padding:0;
+}
+
+
+
+.insta {
+	width: 100%;
+	height: 1153px;
+	background-color: #bababa;
+	text-align: center;
+	padding: 35px 0;
+}
+
+.contact, .wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 40px;
+	width: 100%;
+}
+
+
+.contact {
+	width: 100%;
+	height: 750px;
+	padding-top: 35px;
+}
+
+.form-field {
+	padding-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    display: block;
+    height: 55px;
+    color: #2b2b2b;
+    font-size: 15px;
+    letter-spacing: 5.66px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 1px solid black;
+    padding-left: 30px;
+    font-family: "Proxima Nova Regular";
+}
+
+.form-field-pading {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.form-field textarea {
+	height: 200px;
+	padding-top: 15px;
+}
+
+.tel {
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+
+.tel p {
+	font-family : "Proxima Nova Regular";
+	color: #2b2b2b;
+	font-size : 22px;
+    letter-spacing : 0.66px;
+    text-transform : uppercase;
+}
+
+
+.btn {
+    width: 100%;
+    height: 60px;
+    background-color: #bababa;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 5.66px;
+    border: none;
+    font-family: "Proxima Nova Regular";
+}
+
+
+footer {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #2b2b2b;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-transform : uppercase;
+	padding: 0 65px;
+	color: #bababa;
+}
+
+
+
+.social i {
+	 background-color: #bababa;
+	 border-radius: 50%;
+	 width: 35px;
+     height: 35px;
+     text-align: center;
+     padding-top: 5px;
+}
+
+
+.social__link {
+	color: #2b2b2b;
+	font-size: 24px;
+	display: inline-block;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.cover {
+  padding: 0 20px;
+}
+
+
+.cover-box {
+	height: 637px;
+	padding-top: 55px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cover-box-left {
+	width: 13.6%;
+	padding-right: 15px;
+}
+
+.cover-box-left img {
+	height: 161px;
+	width: 100%;
+}
+
+.cover-box-left .little {
+	padding-top: 15px;
+}
+
+.cover-box-left .little:first-child {
+	padding-top: 0px;
+}
+
+
+
+.cover-box-central {
+	width: 44.1%;
+}
+
+.cover-box-central img {
+	height: 520px;
+	width: 100%;
+}
+
+.cover-box-right {
+	width: 42.3%;
+	padding-left: 43px;
+}
+
+
+.cover-box-right p {
+	padding-top: 15px;
+	font-family : "Proxima Nova Regular";
+    font-size : 1,875em;
+    line-height : 18px;
+    color : #000000;
+}
+
+.knopka {
+	font-size: 20px;
+}
+
+
+

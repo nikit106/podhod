@@ -1,0 +1,30 @@
+
+@font-face {
+			font-family: "CopperplateCyrillic-Bold";
+			src: url("../fonts/CopperplateCyrillic-Bold.otf");
+			src: url("../fonts/CopperplateCyrillic-Bold.otf")format("embedded-opentype"),
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+
+
+
+
+@font-face {
+			font-family: "Proxima Nova Regular";
+			src: url("../fonts/Proxima Nova Regular.otf");
+			src: url("../fonts/Proxima Nova Regular.otf")format("embedded-opentype"),
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "Proxima Nova Bold";
+			src: url("../fonts/Proxima Nova Bold.otf");
+			src: url("../fonts/Proxima Nova Bold.otf")format("embedded-opentype"),
+			font-style: normal;
+			font-weight: normal;
+	}
+
