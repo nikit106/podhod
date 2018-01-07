@@ -45,7 +45,7 @@ var main = function() { //главная функция
  
             left: '0px' /* теперь при клике по иконке, меню, скрытое за
                левой границей на 285px, изменит свое положение на 0px и станет видимым */
- 
+
         }, 200); //скорость движения меню в мс
          
 
@@ -91,3 +91,12 @@ function change_visibility (block_4_close, block_4_open) {
        return false;
    });
 }
+
+
+ $(".icon-menu").click(function () {
+     $('.shadow').toggleClass("block");
+   });
+
+ $(".icon-close").click(function () {
+     $('.shadow').toggleClass("block");
+   });

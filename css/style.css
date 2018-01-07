@@ -7,6 +7,7 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1;
+	height: 100%;
 }
 
 .podhod{
@@ -141,11 +142,11 @@ span {
 .banner-slider .slick-dots {
 	position: absolute;
 	width: 100%;
-	top: 95%;
+	top: 93%;
 }
 
 .banner-slider img {
-	height: 500px;
+	height: 545px;
 	width: 100%;
 }
 
@@ -441,3 +442,15 @@ footer {
 
 
 
+.block{
+  display:block  !important ;
+}
+.shadow{
+  display:none;
+  position:absolute;
+  z-index:200;
+  height: 300%;
+  width:100%;
+  margin:0 auto;
+  background:rgba(0,0,0, 0.5);
+}
