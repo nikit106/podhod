@@ -69,7 +69,27 @@ var main = function() { //главная функция
  
         }, 200); //скорость движения меню в мс
     });
+
+    $('.shadow').click(function() { //выбираем класс icon-close и метод click
+ 
+        $('.menu').animate({ //выбираем класс menu и метод animate
+ 
+            left: '-285px' /* при клике на крестик меню вернется назад в свое
+               положение и скроется */
+ 
+        }, 200); //скорость движения меню в мс
+         
+    $('body').animate({ //выбираем тег body и метод animate
+ 
+            left: '0px' //а содержимое страницы снова вернется в положение 0px
+ 
+        }, 200); //скорость движения меню в мс
+    });
+
 };
+
+
+
  
 $(document).ready(main); /* как только страница полностью загрузится, будет
                вызвана функция main, отвечающая за работу меню */
@@ -98,5 +118,9 @@ function change_visibility (block_4_close, block_4_open) {
    });
 
  $(".icon-close").click(function () {
+     $('.shadow').toggleClass("block");
+   });
+
+ $(".shadow").click(function () {
      $('.shadow').toggleClass("block");
    });
