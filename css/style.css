@@ -26,6 +26,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	margin-bottom: 20px;
 }
 
 p {
@@ -115,7 +116,6 @@ span {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 10px;
 }
 
 .hr img {
@@ -124,13 +124,14 @@ span {
 }
 
 .banner {
-	padding-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .box-banner {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 0 150px;
+	padding: 20px 150px;
 	width: 100%;
 }
 
@@ -152,24 +153,19 @@ span {
 
 .text {
 	width: 100%;
-	padding-top: 35px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .text-contact {
 	width: 100%;
-	padding-top: 35px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .text-box {
 	text-align: center;
 }
-
-.text-box h3 {
-	padding-top: 10px;
-}
-
 
 
 .contact-box {
@@ -181,27 +177,18 @@ span {
 	width: 100%;
 }
 
-.text-box-contact p {
-	padding-top: 20px;
-	font-size: 20px;
-	line-height: 30px;
-	width: 100%;
-}
+
 
 
 .image-box-contact img {
-	padding-top: 60px;
 	width: 100%;
 	height: 700px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding: 20px;
 }
 
 
 .map {
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding: 20px;
 }
 
 .magazine {
@@ -209,16 +196,15 @@ span {
 }
 
 .magazine h3 {
-	padding-top: 33px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .images {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding-bottom: 30px;
-	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .images-box p {
@@ -274,7 +260,7 @@ padding:0;
 	height: 1153px;
 	background-color: #bababa;
 	text-align: center;
-	padding: 35px 0;
+	padding: 20px 0;
 }
 
 .contact, .wrapper {
@@ -288,7 +274,7 @@ padding:0;
 .contact {
 	width: 100%;
 	height: 750px;
-	padding-top: 35px;
+	padding-top: 20px;
 }
 
 .form-field {
@@ -380,13 +366,14 @@ footer {
 }
 
 .cover {
-  padding: 0 20px;
+  padding:20px;
 }
 
 
 .cover-box {
-	height: 637px;
-	padding-top: 55px;
+	height: 540px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
