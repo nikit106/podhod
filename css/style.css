@@ -10,6 +10,11 @@ body {
 	height: 100%;
 }
 
+.page {
+	min-height: 100%;
+   position: relative
+}
+
 .podhod{
 	font-family : "CopperplateCyrillic-Bold";
 }
@@ -162,7 +167,7 @@ span {
 }
 
 .banner-slider img {
-	height: 545px;
+	height: 754px;
 	width: 100%;
 }
 
@@ -207,7 +212,7 @@ span {
 }
 
 .magazine {
-	height: 700px;
+	height: 530px;
 }
 
 .magazine h3 {
@@ -358,6 +363,9 @@ footer {
 	text-transform : uppercase;
 	padding: 0 65px;
 	color: #bababa;
+
+	position: absolute;
+	bottom: -40px;
 }
 
 
@@ -381,7 +389,7 @@ footer {
 }
 
 .cover {
-  padding:20px;
+  padding:20px 0;
 }
 
 
@@ -427,6 +435,7 @@ footer {
 .cover-box-right {
 	width: 42.3%;
 	padding-left: 43px;
+	padding-top: 29px;
 }
 
 
@@ -439,6 +448,8 @@ footer {
     line-height: 1.5;
 }
 
+
+/*тень*/
 
 .block{
   display:block  !important ;
@@ -456,7 +467,7 @@ footer {
 
 
 
-
+/*кнопка читать далее*/
 
 .read-more-state {
   display: none;
