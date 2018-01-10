@@ -50,6 +50,10 @@ var main = function() { //главная функция
 
     });
 
+    $(window).scroll(function(){
+        $('body').scrollTop(0);
+    });
+
     /* появление меню */
  
     $('.icon-menu').click(function() { /* выбираем класс icon-menu и
