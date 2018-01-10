@@ -44,6 +44,11 @@ var main = function() { //главная функция
     
     /* исчезание скролла */
 
+    $('.icon-menu').click(function() {
+
+    $('body').css('overflow','hidden');
+
+    });
 
 
     /* появление меню */
