@@ -34,9 +34,22 @@ $(function(){
 			}
 		});
 	});
+
+
+
 /* Открытие меню */
  
 var main = function() { //главная функция
+
+    
+
+    $('.icon-menu').click(function() {
+
+    $('body').css('overflow','hidden');
+
+    });
+
+    
  
     $('.icon-menu').click(function() { /* выбираем класс icon-menu и
                добавляем метод click с функцией, вызываемой при клике */
@@ -50,9 +63,27 @@ var main = function() { //главная функция
          
 
     });
+
+    
+
+
  
  
 /* Закрытие меню */
+
+    $('.icon-close').click(function() {
+
+    $('body').css('overflow','scroll');
+
+    });
+
+    $('.shadow').click(function() {
+
+    $('body').css('overflow','scroll');
+
+    });
+
+
  
     $('.icon-close').click(function() { //выбираем класс icon-close и метод click
  
@@ -68,7 +99,12 @@ var main = function() { //главная функция
             left: '0px' //а содержимое страницы снова вернется в положение 0px
  
         }, 200); //скорость движения меню в мс
+
+
     });
+
+    
+
 
     $('.shadow').click(function() { //выбираем класс icon-close и метод click
  
@@ -88,14 +124,25 @@ var main = function() { //главная функция
 
 };
 
-
-
  
 $(document).ready(main); /* как только страница полностью загрузится, будет
                вызвана функция main, отвечающая за работу меню */
 
 
 });
+
+ $(".icon-menu").click(function () {
+     $('.shadow').toggleClass("block");
+   });
+
+ $(".icon-close").click(function () {
+     $('.shadow').toggleClass("block");
+   });
+
+ $(".shadow").click(function () {
+     $('.shadow').toggleClass("block");
+   });
+
 
 
 function l_image (a,b) {
@@ -112,15 +159,3 @@ function change_visibility (block_4_close, block_4_open) {
    });
 }
 
-
- $(".icon-menu").click(function () {
-     $('.shadow').toggleClass("block");
-   });
-
- $(".icon-close").click(function () {
-     $('.shadow').toggleClass("block");
-   });
-
- $(".shadow").click(function () {
-     $('.shadow').toggleClass("block");
-   });

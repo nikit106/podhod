@@ -58,10 +58,24 @@ h3 {
 	text-transform : uppercase;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	padding-bottom: 20px;
 	color: #000000;
 }
+
+.left {
+	margin-right: 10px;
+	width: 37px;
+	height: 26px;
+}
+
+.right {
+	margin-left: 10px;
+	width: 37px;
+	height: 26px;
+}
+
+
 
 
 span {
@@ -204,7 +218,7 @@ span {
 .images {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-bottom: 20px;
 }
 
@@ -221,8 +235,8 @@ span {
 
 
 .images-box img {
-	width: 450px;
-	height: 450px;
+	width: 336px;
+	height: 336px;
 }
 
 .image-first,.image-second {
@@ -431,6 +445,7 @@ footer {
 
 
 
+
 .block{
   display:block  !important ;
 }
@@ -443,3 +458,4 @@ footer {
   margin:0 auto;
   background:rgba(0,0,0, 0.5);
 }
+
