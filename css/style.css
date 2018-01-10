@@ -34,6 +34,7 @@ p {
   font-size : 17px;
   line-height : 18px;
   color : #000000;
+  line-height: 1.5;
 }
 
 .designer p {
@@ -131,7 +132,7 @@ span {
 .box-banner {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 20px 150px;
+	padding: 20px 70px;
 	width: 100%;
 }
 
@@ -211,6 +212,7 @@ span {
 	text-align: center;
 	padding-top: 10px;
 	font-size: 16px;
+
 }
 
  .bold {
@@ -266,7 +268,6 @@ padding:0;
 .contact, .wrapper {
 	max-width: 1100px;
 	margin: 0 auto;
-	padding: 0 40px;
 	width: 100%;
 }
 
@@ -421,6 +422,7 @@ footer {
     font-size : 1,875em;
     line-height : 18px;
     color : #000000;
+    line-height: 1.5;
 }
 
 .knopka {
