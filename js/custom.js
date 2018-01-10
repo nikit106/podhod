@@ -63,10 +63,6 @@ var main = function() { //главная функция
 
         }, 200); //скорость движения меню в мс
          
-       $(window).scroll(function(){
-        $('body').scrollTop(0);
-    });
-
        
     });
 
