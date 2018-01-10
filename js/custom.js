@@ -42,6 +42,7 @@ $(function(){
 var main = function() { //главная функция
 
     
+    /* исчезание скролла */
 
     $('.icon-menu').click(function() {
 
@@ -49,7 +50,7 @@ var main = function() { //главная функция
 
     });
 
-    
+    /* появление меню */
  
     $('.icon-menu').click(function() { /* выбираем класс icon-menu и
                добавляем метод click с функцией, вызываемой при клике */
@@ -71,6 +72,9 @@ var main = function() { //главная функция
  
 /* Закрытие меню */
 
+
+    /* появление скролла после закрытия мобильного меню */
+
     $('.icon-close').click(function() {
 
     $('body').css('overflow','scroll');
@@ -84,7 +88,8 @@ var main = function() { //главная функция
     });
 
 
- 
+  /* Закрытие меню через крест */
+
     $('.icon-close').click(function() { //выбираем класс icon-close и метод click
  
         $('.menu').animate({ //выбираем класс menu и метод animate
@@ -104,7 +109,7 @@ var main = function() { //главная функция
     });
 
     
-
+   /* Закрытие меню через тень */
 
     $('.shadow').click(function() { //выбираем класс icon-close и метод click
  
@@ -127,9 +132,11 @@ var main = function() { //главная функция
  
 $(document).ready(main); /* как только страница полностью загрузится, будет
                вызвана функция main, отвечающая за работу меню */
-
-
 });
+
+
+
+/* Появление и исчезание тени при открытие и закрытие меню */
 
  $(".icon-menu").click(function () {
      $('.shadow').toggleClass("block");
@@ -149,6 +156,7 @@ function l_image (a,b) {
 document.example_img.src=a;
 document.getElementById("link").href=b.href;
 }
+
 
 
 function change_visibility (block_4_close, block_4_open) {
