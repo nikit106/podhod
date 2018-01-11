@@ -81,12 +81,17 @@ var main = function() { //главная функция
     $('.icon-close').click(function() {
 
     $('body').css('overflow','scroll');
+    $('body').css('overflow-x','scroll');
+    $('body').css('position','relative');
+
 
     });
 
     $('.shadow').click(function() {
 
     $('body').css('overflow','scroll');
+    $('body').css('overflow-x','scroll');
+    $('body').css('position','relative');
 
     });
 
