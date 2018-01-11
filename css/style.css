@@ -16,7 +16,7 @@ body {
 }
 
 .podhod{
-	font-family : "CopperplateCyrillic-Bold";
+	font-family: "Copperplate";
 }
 
 .icon-close a {
@@ -61,24 +61,45 @@ h3 {
 	font-size: 32px;
 	font-family : "CopperplateCyrillic-Bold";
 	text-transform : uppercase;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	padding-bottom: 20px;
 	color: #000000;
 }
 
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* кавычки */
+
 .left {
-	margin-right: 10px;
-	width: 37px;
-	height: 26px;
+  margin-right: 5px;
+  margin-bottom: 16px;
+  width: 20px;
+  height: 13px;
 }
 
 .right {
-	margin-left: 10px;
-	width: 37px;
-	height: 26px;
+  margin-left: 5px;
+  margin-bottom: 16px;
+  width: 20px;
+  height: 13px;
 }
+
+.left-magazine {
+  margin-right: 5px;
+  width: 20px;
+  height: 13px;
+}
+
+.right-magazine {
+  margin-left: 5px;
+  width: 20px;
+  height: 13px;
+}
+
 
 
 
