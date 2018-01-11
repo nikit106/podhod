@@ -46,7 +46,9 @@ var main = function() { //главная функция
 
     $('.icon-menu').click(function() {
 
+    $('body').css('overflow-x','hidden');
     $('body').css('overflow','hidden');
+    $('body').css('position','relative');
 
     });
 
