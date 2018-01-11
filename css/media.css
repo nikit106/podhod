@@ -446,9 +446,6 @@ p .bold {
   text-align: center;
 }
 
-.magazine {
-    height: 75px;
-}
 
 .images {
   display: none;
@@ -541,6 +538,10 @@ p .bold {
    padding-top: 20px;
    height: 424px;
    width: 424px;
+}
+
+.magazine {
+  display: none;
 }
 
 
@@ -749,9 +750,6 @@ p .bold {
 
   }
 
-  .magazine {
-	height: 40px;
-  }
 
   .magazine h3 {
   	padding-top: 20px;
