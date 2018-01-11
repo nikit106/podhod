@@ -70,6 +70,7 @@ h3 {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	padding-top: 20px;
 }
 
 /* кавычки */
@@ -188,7 +189,7 @@ span {
 }
 
 .banner-slider img {
-	height: 754px;
+	height: 600px;
 	width: 100%;
 }
 
@@ -386,7 +387,7 @@ footer {
 	color: #bababa;
 
 	position: absolute;
-	bottom: -40px;
+	bottom: -100px;
 }
 
 
@@ -523,4 +524,35 @@ footer {
   color: #666;
   font-size: 20px;
   line-height: 2;
+}
+
+
+/*кнопки цвета*/
+
+
+.circle-black {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 3px solid #000;
+}
+
+.circle-orange {
+  width: 50px;
+  height: 50px;
+  background-color: #d66c25;
+  border-radius: 50%;
+  border: 3px solid #d66c25;
+
+}
+
+
+.circle-dashed {
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 3px dashed #bdbebd;
+
 }

@@ -160,18 +160,27 @@ $(document).ready(main); /* как только страница полност�
 
 
 
-function l_image (a,b) {
-document.example_img.src=a;
-document.getElementById("link").href=b.href;
-}
+    $('.circle-black').click(function() {
+
+    $('.image-block-main ').css('background-image','url(img/cover3.jpg)');
+    document.getElementById('href').href = 'cover-black.html';
 
 
+    });
 
-function change_visibility (block_4_close, block_4_open) {
-   $(document).ready(function(){
-       $('#'+block_4_close).css('display','none');
-       $('#'+block_4_open).css('display','');
-       return false;
-   });
-}
+    $('.circle-orange').click(function() {
 
+    $('.image-block-main ').css('background-image','url(img/cover1.jpg)');
+    document.getElementById('href').href = 'cover.html';
+    
+
+
+    });
+
+    $('.circle-dashed').click(function() {
+
+    $('.image-block-main').css('background-image','url(img/cover2.jpg)');
+    document.getElementById('href').href = 'cover-dashed.html';
+
+
+    });
