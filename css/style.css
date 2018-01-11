@@ -499,7 +499,7 @@ footer {
   opacity: 0;
   max-height: 0;
   font-size: 0;
-  transition: .55s ease;
+  transition: ease;
   font-weight: normal;
 }
 
