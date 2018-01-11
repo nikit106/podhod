@@ -47,6 +47,10 @@
   display: none;
 }
 
+.magazine-mobile {
+  display: none;
+}
+
 }
 
 
@@ -113,7 +117,20 @@
   display: none;
 }
 
+.magazine-mobile {
+  display: none;
 }
+
+
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1380px) {
 .images-box img {
@@ -124,6 +141,11 @@
 .images-text-box {
   width: 336px;
 }
+
+.magazine-mobile {
+  display: none;
+}
+
 
 
 }
@@ -161,6 +183,11 @@
 .magazine {
     height: 610px;
 }
+
+.magazine-mobile {
+  display: none;
+}
+
 
 }
 
@@ -234,6 +261,11 @@
   width: 100%;
   height: 540px;
    }
+
+   .magazine-mobile {
+  display: none;
+}
+
 }
 
 
@@ -264,6 +296,10 @@
 
 
 @media (max-width: 767px) {
+
+.magazine-mobile {
+  display: block;
+}
 
 
 .header-wrap {
@@ -910,7 +946,6 @@ h3 {
 .contact {
     width: 100%;
     height: 640px;
-    padding-top: 20px;
 }
 
 
