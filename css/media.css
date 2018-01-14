@@ -22,7 +22,7 @@
 
 .cover-box-central img {
     height: 520px;
-    width: 85%;
+    width: 97%;
 }
 
 .cover-box-right {
@@ -92,12 +92,11 @@
 
 .cover-box-central img {
     height: 520px;
-    width: 85%;
+    width: 110%;
 }
 
 .cover-box-right {
-    width: 42.3%;
-    padding-left: 0px;
+    width: 36.3%;
 }
 
 .cover-mobile {
@@ -120,7 +119,6 @@
 .magazine-mobile {
   display: none;
 }
-
 
 }
 
@@ -260,6 +258,11 @@
    .banner-slider img {
   width: 100%;
   height: 742px;
+   }
+
+   .index-banner-slider img {
+  width: 100%;
+  height: 500px;
    }
 
    .magazine-mobile {
@@ -470,6 +473,11 @@ p .bold {
     width: 100%;
 }
 
+.index-banner-slider img {
+    height: 430px;
+    width: 100%;
+}
+
 .images {
     display: flex;
     align-items: center;
@@ -610,6 +618,11 @@ p .bold {
     width: 100%;
 }
 
+.index-banner-slider img {
+    height: 370px;
+    width: 100%;
+}
+
 }
 
 
@@ -653,7 +666,6 @@ p .bold {
    header {
    	height: 70px;
    }
-
 
    .wrapper {
     max-width: 1250px;
@@ -699,12 +711,21 @@ p .bold {
 	height: 411px;
    }
 
-
+   .index-banner-slider img {
+  width: 100%;
+  height: 280px;
+   }
 
    .banner-slider .slick-dots {
 	position: absolute;
 	width: 100%;
 	top: 90%;
+   }
+
+   .index-banner-slider .slick-dots {
+  position: absolute;
+  width: 100%;
+  top: 90%;
    }
 
 
@@ -795,14 +816,14 @@ p .bold {
   .image-box-contact img {
     width: 100%;
     height: 230px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .map {
     padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
     height: 450px;
 }
 
@@ -905,6 +926,12 @@ h3 {
    .banner-slider img {
   width: 100%;
   height: 341px
+   }
+
+
+   .index-banner-slider img {
+  width: 100%;
+  height: 210px
    }
 
 

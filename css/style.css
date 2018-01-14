@@ -19,6 +19,10 @@ body {
 	font-family: "Copperplate";
 }
 
+.icon-close {
+	font-family: "Copperplate";
+}
+
 .icon-close a {
 	font-family : "CopperplateCyrillic-Bold";
 }
@@ -181,6 +185,10 @@ span {
 	position: relative;
 }
 
+.index-banner-slider {
+	position: relative;
+}
+
 
 .banner-slider .slick-dots {
 	position: absolute;
@@ -188,7 +196,18 @@ span {
 	top: 93%;
 }
 
+.index-banner-slider .slick-dots {
+	position: absolute;
+	width: 100%;
+	top: 93%;
+}
+
 .banner-slider img {
+	height: 600px;
+	width: 100%;
+}
+
+.index-banner-slider img {
 	height: 600px;
 	width: 100%;
 }
@@ -229,9 +248,7 @@ span {
 }
 
 
-.map {
-	padding: 20px;
-}
+
 
 .magazine {
 	height: 530px;
@@ -426,8 +443,8 @@ footer {
 }
 
 .cover-box-left {
-	width: 13.6%;
-	padding-right: 15px;
+	width: 15.6%;
+	padding-right: 0px;
 }
 
 .cover-box-left img {
@@ -451,7 +468,7 @@ footer {
 
 .cover-box-central img {
 	height: 520px;
-	width: 100%;
+	width: 110%;
 }
 
 .cover-box-right {
@@ -468,6 +485,15 @@ footer {
     line-height : 18px;
     color : #000000;
     line-height: 1.5;
+}
+
+.text-box-contact p {
+	padding-bottom: 10px;
+}
+
+.text-box-price {
+	text-align: center;
+	padding-top: 5px;
 }
 
 

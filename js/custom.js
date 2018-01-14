@@ -1,3 +1,11 @@
+
+function l_image (a) {
+    document.example_img.src=a
+}
+
+
+
+
 $(function(){
 
 	$('.tabs a').click(function(){
@@ -14,6 +22,12 @@ $(function(){
 		dots: true,
 		autoplay: true,
 	});
+
+    $('.index-banner-slider').slick({
+        arrows: false,
+        dots: true,
+        autoplay: true,
+    });
 
 
 
