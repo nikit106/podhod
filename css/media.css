@@ -735,8 +735,8 @@ p .bold {
 
    .insta {
    	 padding: 20px 0;
-   	 background-color: #fff;
      height: 600px;
+     text-align: center;
    }
 
    .contact {
