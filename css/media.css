@@ -51,10 +51,6 @@
   display: none;
 }
 
-.insta-box-mobile {
-  display: none;
-}
-
 }
 
 
@@ -121,10 +117,6 @@
 }
 
 .magazine-mobile {
-  display: none;
-}
-
-.insta-box-mobile {
   display: none;
 }
 
@@ -847,17 +839,7 @@ p .bold {
    padding-top: 20px;
    height: 324px;
    width: 324px;
-}
-
-
-.insta-box-mobile {
-  display: block;
-}
-
-.insta-box {
-  display: none;
-}
- 
+} 
 }
 
 
