@@ -1007,9 +1007,14 @@ h3 {
    width: 277px;
 }
 
-.insta {
-  height: 360px;
+.insta-box-380px {
   text-align: center;
 }
+
+.insta {
+  height: 583px;
+  text-align: center;
+}
+
 
 }
