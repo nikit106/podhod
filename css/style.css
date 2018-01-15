@@ -313,10 +313,12 @@ margin:0;
 padding:0;
 }
 
-
+.insta-box-mobile {
+	text-align: center;
+}
 .insta {
 	text-align: center;
-	width: 300px;
+	width: 382px;
 }
 
 .contact, .wrapper {
