@@ -6,7 +6,7 @@
 $CONFIG = array(
 
 	// Instagram login
-	'LOGIN' => '',
+	'LOGIN' => 'podhod.passport',
 
 	// Get pictures from WORLDWIDE by hashtags. 
 	// Separate hashtags by comma. For example: girl, man
@@ -33,19 +33,16 @@ $CONFIG = array(
 	// Warning! Use true option only for debug.
 	'cacheSkip' => false,
 		
+	// Full path to cache directory
+	'cachePath' => __DIR__.'/cache/',
+		
 	/* Default skin. 
-	 * Possible values:
-		default
-		modern-blue
-		modern-green
-		modern-red
-		modern-orange
-		modern-grey
-		modern-black
-		modern-violet
-		modern-yellow
+	 * Possible values: default, modern-blue, modern-green, modern-red, modern-orange, modern-grey, modern-black, modern-violet, modern-yellow
 	 * This option may no effect if you set skin by $_GET variable */
 	'skinDefault' => 'default',
+		
+	// Path to skin directory
+	'skinPath' => 'skins/',
 
 	// Default language [ ru / en ] or something else from lang directory.
 	'langDefault' => 'ru',
