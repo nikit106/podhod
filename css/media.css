@@ -120,6 +120,14 @@
   display: none;
 }
 
+.insta-box-380px {
+  display: none;
+}
+
+.insta-box-600px {
+  display: none;
+}
+
 }
 
 
@@ -141,6 +149,14 @@
 }
 
 .magazine-mobile {
+  display: none;
+}
+
+.insta-box-380px {
+  display: none;
+}
+
+.insta-box-600px {
   display: none;
 }
 
@@ -590,6 +606,8 @@ p .bold {
 
 
 
+
+
 }
 
 
@@ -621,6 +639,10 @@ p .bold {
 .index-banner-slider img {
     height: 370px;
     width: 100%;
+}
+
+.insta-box-600px {
+  display: block;
 }
 
 }
@@ -840,6 +862,14 @@ p .bold {
    height: 324px;
    width: 324px;
 } 
+
+.insta-box-380px {
+  display: block;
+}
+
+.insta-box-600px {
+  display: none;
+}
 
 }
 
