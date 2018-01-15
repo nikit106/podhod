@@ -6,7 +6,7 @@
 $CONFIG = array(
 
 	// Instagram login
-	'LOGIN' => 'podhod.passport',
+	'LOGIN' => 'fotokto_ru',
 
 	// Get pictures from WORLDWIDE by hashtags. 
 	// Separate hashtags by comma. For example: girl, man
