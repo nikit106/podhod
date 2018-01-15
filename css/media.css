@@ -739,6 +739,10 @@ p .bold {
      text-align: center;
    }
 
+   .insta-box {
+    text-align: center;
+   }
+
    .contact {
     width: 100%;
     height: 680px;
