@@ -120,14 +120,6 @@
   display: none;
 }
 
-.insta-box-380px {
-  display: none;
-}
-
-.insta-box-600px {
-  display: none;
-}
-
 }
 
 
@@ -151,16 +143,6 @@
 .magazine-mobile {
   display: none;
 }
-
-.insta-box-380px {
-  display: none;
-}
-
-.insta-box-600px {
-  display: none;
-}
-
-
 
 }
 
@@ -273,7 +255,7 @@
 
    .banner-slider img {
   width: 100%;
-  height: 722px;
+  height: 712px;
    }
 
    .index-banner-slider img {
@@ -485,7 +467,7 @@ p .bold {
 
 
 .banner-slider img {
-    height: 638px;
+    height: 628px;
     width: 100%;
 }
 
@@ -632,17 +614,13 @@ p .bold {
 }
 
 .banner-slider img {
-    height: 511px;
+    height: 501px;
     width: 100%;
 }
 
 .index-banner-slider img {
     height: 370px;
     width: 100%;
-}
-
-.insta-box-600px {
-  display: block;
 }
 
 }
@@ -730,7 +708,7 @@ p .bold {
 
    .banner-slider img {
 	width: 100%;
-	height: 391px;
+	height: 381px;
    }
 
    .index-banner-slider img {
@@ -863,14 +841,6 @@ p .bold {
    width: 324px;
 } 
 
-.insta-box-380px {
-  display: block;
-}
-
-.insta-box-600px {
-  display: none;
-}
-
 }
 
 
@@ -949,7 +919,7 @@ h3 {
 
    .banner-slider img {
   width: 100%;
-  height: 321px
+  height: 311px
    }
 
 
@@ -1036,15 +1006,5 @@ h3 {
    height: 277px;
    width: 277px;
 }
-
-.insta-box-380px {
-  text-align: center;
-}
-
-.insta {
-  height: 563px;
-  text-align: center;
-}
-
 
 }
