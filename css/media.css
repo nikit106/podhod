@@ -840,6 +840,7 @@ p .bold {
    height: 324px;
    width: 324px;
 } 
+
 }
 
 
@@ -1004,6 +1005,10 @@ h3 {
    padding-top: 20px;
    height: 277px;
    width: 277px;
+}
+
+.insta {
+  width: 224px;
 }
 
 
