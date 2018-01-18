@@ -6,7 +6,7 @@
 $CONFIG = array(
 
 	// Instagram login
-	'LOGIN' => 'nickomarov',
+	'LOGIN' => 'podhod.passport',
 
 	// Get pictures from WORLDWIDE by hashtags. 
 	// Separate hashtags by comma. For example: girl, man
@@ -20,7 +20,7 @@ $CONFIG = array(
 	'bannedLogins' => '',
 		
 	// Random order of pictures [ true / false ]
-	'imgRandom' => true,
+	'imgRandom' => false,
 
 	// How many pictures widget will get from Instagram?
 	'imgCount' => 30,

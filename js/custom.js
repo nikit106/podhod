@@ -199,3 +199,19 @@ $(document).ready(main); /* как только страница полност�
 
     });
 
+/* обводка кнопок при нажатии */
+
+
+$('.color-block div.circle-black').click(function(){
+    $('.color-block div').removeClass('active');
+    $(this).addClass('active')
+})
+$('.color-block div.circle-orange').click(function(){
+    $('.color-block div').removeClass('active');
+    $(this).addClass('active')
+})
+
+$('.color-block div.circle-dashed').click(function(){
+    $('.color-block div').removeClass('active');
+    $(this).addClass('active')
+})
